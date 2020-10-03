@@ -10,14 +10,19 @@
             },
             "GMAIL-SECURED":{
                 "TYPE":"GMAIL-SECURED",
+                "SCOPES":["https://www.googleapis.com/auth/gmail.readonly"],
                 "DEFAULT_FOLDER":"Inbox",
-                "CREDENTIAL_LOCATION":"/Users/rishushrivastava/Document/GitHub/Credentials",
-                "OAUTH_PIC_LOCATION":"auto-email-service/oauth"
+                "CREDENTIAL_LOCATION":"/Users/rishushrivastava/Document/GitHub/Credentials/",
+                "OAUTH_PIC_LOCATION":"auto-email-service/oauth/"
             }
         }
     },
 
     "GENERAL":{
+        "LOG":{
+            "DIR":"auto-email-service/log/",
+            "FILENAME":"emailparser_master_log.log"
+        }
 
     }
 }
