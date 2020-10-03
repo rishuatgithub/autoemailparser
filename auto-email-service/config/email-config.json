@@ -1,0 +1,23 @@
+{
+    "EMAIL":{
+        "GMAIL":{
+            "GMAIL-UNSECURED":{
+                "TYPE":"GMAIL-UNSECURED",
+                "SMTP_SERVER":"imap.gmail.com",
+                "SMTP_PORT":993,
+                "EMAIL_EXT":"@gmail.com",
+                "DEFAULT_FOLDER":"Inbox"
+            },
+            "GMAIL-SECURED":{
+                "TYPE":"GMAIL-SECURED",
+                "DEFAULT_FOLDER":"Inbox",
+                "CREDENTIAL_LOCATION":"/Users/rishushrivastava/Document/GitHub/Credentials",
+                "OAUTH_PIC_LOCATION":"auto-email-service/oauth"
+            }
+        }
+    },
+
+    "GENERAL":{
+
+    }
+}
